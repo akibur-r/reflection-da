@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Anek+Bangla:wdth,wght@75..125,100..800&display=swap");
+
+:root {
+  --clr-primary: #0855a7;
+  --clr-secondary: #03a9d2;
+  --clr-dark-blue: #09013d;
+  --clr-accent: #f0ec92;
+  --clr-accent-white: #f5f3fa;
+  --clr-accent-black: #050e18;
+  --clr-white: #ffffff;
+  --clr-black: #000000;
+
+  --fw-thin: 200;
+  --fw-normal: 400;
+  --fw-bold: 600;
+  --fw-bolder: 700;
+
+  font-size: 20px;
+
+  --fs-xs: 0.75rem;
+  --fs-s: 0.875rem;
+  --fs-regular: 1rem;
+  --fs-l: 1.5rem;
+  --fs-xl: 2rem;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+  font-family: "Anek Bangla", sans-serif;
+  background-color: var(--clr-accent-white);
+  font-size: var(--fs-l);
+}
+
+
+.fs-regular {
+    font-size: var(--fs-regular);
+}
+
+.fs-l {
+    font-size: var(--fs-l);
+}
+.fs-xl {
+    font-size: var(--fs-xl);
+}
+.fs-s {
+    font-size: var(--fs-s);
+}
+.fs-xs {
+    font-size: var(--fs-xs);
+}
+
+.bg-primary {
+    background-color: var(--clr-primary);
+}
+
+.bg-secondary {
+    background-color: var(--clr-secondary);
+}
+
+.bg-accent-white {
+    background-color: var(--clr-accent-white);
+}
+
+.bg-accent-black {
+    background-color: var(--clr-accent-black);
+}
+
+.bg-accent {
+    background-color: var(--clr-accent);
+}
+
+.bg-white {
+    background-color: var(--clr-white);
+}
+
+.bg-black {
+    background-color: var(--clr-black);
+}
+
+.txt-primary {
+   color: var(--clr-primary);
+}
+
+.txt-secondary {
+   color: var(--clr-secondary);
+}
+
+.txt-accent-white {
+   color: var(--clr-accent-white);
+}
+
+.txt-accent-black {
+   color: var(--clr-accent-black);
+}
+
+.txt-accent {
+   color: var(--clr-accent);
+}
+
+.txt-white {
+    color: var(--clr-white);
+}
+
+.txt-black {
+    color: var(--clr-black);
+}
