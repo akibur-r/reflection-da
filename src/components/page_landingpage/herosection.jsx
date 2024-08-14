@@ -27,14 +27,15 @@ function Herosection(){
                     amountInNumber={'২'}
                 />
 
-                <Link to={'#'} className='herosection__highlights__link bg-accent'>
+                <a href={'#projects'} className='herosection__highlights__link bg-accent'>
                     আরও দেখুন
                     <Icon icon={"line-md:chevron-small-down" } className='herosection__highlights__link__icon'/>
-                </Link>
+                </a>
             </div>
         </div>
         <div className="herosection__imageContainer">
-            <img src="./building-1.jpg" alt="#" className='herosection__img'/>
+            <img src="./building-1.jpg" alt="#" className='herosection__img1'/>
+            <img src="./building-2.jpg" alt="#" className='herosection__img2'/>
         </div>
     </div>
   )

@@ -1,0 +1,11 @@
+.services {
+    & > .services__heading {
+        display: flex;
+        justify-content: space-between;
+
+        .services__heading__link {
+            font-size: 0.5em;
+            text-decoration: underline;
+        }
+    }
+}

@@ -2,15 +2,17 @@ import { useState } from 'react'
 import './App.css'
 import './utility.scss'
 
-import { createBrowserRouter, Navigate, Outlet, RouterProvider } from 'react-router-dom'
+import { createBrowserRouter, Link, Navigate, Outlet, RouterProvider } from 'react-router-dom'
 
 import Navbar from './components/navbar/navbar'
-import Landingpage from './components/landingpage/landingpage'
+import Landingpage from './components/page_landingpage/landingpage'
+import Services from './components/page_services/services'
 
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <Navigate to={'/bn'} />
+    element: <Navigate to={'/bn'} />,
+    errorElement: <>URL Not Found.<Link to={'/'}>Go Home</Link> </>
   },
   {
     path: '/bn',
@@ -26,6 +28,14 @@ const router = createBrowserRouter([
       {
         path: '/bn',
         element: <Landingpage/>
+      },
+      {
+        path: 'about',
+        element: <>About Us</>
+      },
+      {
+        path: 'services',
+        element: <Services/>
       }
     ]
   },
