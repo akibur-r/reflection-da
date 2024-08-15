@@ -10,6 +10,7 @@
   --clr-white: #ffffff;
   --clr-black: #000000;
   --clr-red: #e40613;
+  --clr-green: #25D366;
 
   --fw-200: 200;
   --fw-300: 300;
@@ -132,6 +133,10 @@ a {
     background-color: var(--clr-red);
 }
 
+.bg-green {
+    background-color: var(--clr-green);
+}
+
 .txt-primary {
    color: var(--clr-primary);
 }
@@ -162,4 +167,8 @@ a {
 
 .txt-red {
     color: var(--clr-red);
+}
+
+.txt-green {
+    color: var(--clr-green);
 }

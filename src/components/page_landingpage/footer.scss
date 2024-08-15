@@ -1,0 +1,29 @@
+.footer {
+    padding: 3rem 3rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2rem;
+    
+    .footer__upperSection {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+    .footer__lowerSection {
+        display: flex;
+        justify-content: space-between;
+
+        .footer__lowerSection__developer {
+            .footer__lowerSection__developer__link {
+                text-decoration: underline;
+            }
+        }
+    }
+
+    .footer__logo {
+        height: min(144px, 20vh);
+    }
+}
