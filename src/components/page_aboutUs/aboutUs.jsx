@@ -7,9 +7,8 @@ import StyledText from '../macro/styledText'
 function AboutUs(){
   return (
     <div className='aboutUs' id='aboutUs'>
-        <div className="aboutUs__heading sectionHeading">
-            <h1 className="aboutUs__heading__title sectionHeading__title fs-xl">আমাদের সম্পর্কে</h1>
-            <Link to={'about'} className='aboutUs__heading__link sectionHeading__link'>পুরোটা দেখুন</Link>
+        <div className="aboutUs__heading pageHeading">
+            <h1 className="aboutUs__heading__title pageHeading__title fs-xl">আমাদের সম্পর্কে</h1>
         </div>
         <div className="aboutUs__content">
             <p className="aboutUs__companyOverview">
@@ -23,17 +22,17 @@ function AboutUs(){
             </h2>
             <div className="aboutUs__content__subsection aboutUs__teamMembers">
                 <TeamMemberCard
-                    photoURL={'./arif.jpg'}
+                    photoURL={'../../arif.jpg'}
                     name={'আরিফুর রহমান'}
                     designation={'স্ট্রাকচারাল ইঞ্জিনিয়ার'}
                 />
                 <TeamMemberCard
-                    photoURL={'rashed.jpg'}
+                    photoURL={'../../rashed.jpg'}
                     name={'রাশেদুল ইসলাম রিপন'}
                     designation={'আর্কিটেকচার কনসালট্যান্ট'}
                 />
                 <TeamMemberCard
-                    photoURL={'./sohel.jpg'}
+                    photoURL={'../../sohel.jpg'}
                     name={'মোহাম্মদ সোহেল'}
                     designation={'সিভিল ইঞ্জিনিয়ার'}
                 />

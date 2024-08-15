@@ -1,0 +1,38 @@
+.styledText {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: 0.25rem solid var(--clr-white);
+
+  max-width: max(344px, 20vw);
+
+  transition-duration: 300ms;
+  cursor: pointer;
+
+  &:hover {
+    background-color: var(--clr-accent);
+  }
+
+  .icon-container {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .text-container {
+    flex: 4;
+
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+
+    p {
+      font-size: 1em;
+      text-wrap: wrap;
+      line-height: 1.2;
+    }
+  }
+}

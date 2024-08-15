@@ -10,11 +10,11 @@ function ErrorElement(){
         </div>
         <div className="errorElement__content">
             <h1 className="errorElement__content__title fs-xl fw-600">
-                This page is unavailable right now.
+                পেজটি এখন তৈরী করা হয়নি
             </h1>
             <Link to={'/'} className='errorElement__content__link bg-primary txt-white'>
             <Icon icon={'ion:arrow-back-outline'} />
-             Go Back Home
+             মূল পেজে ফিরে যান
             </Link>
         </div>
     </div>

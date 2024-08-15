@@ -4,7 +4,7 @@ import './services.scss'
 function Services(){
   return (
     <div className='services' id='services'>
-      <h1 className="services__heading fs-xl">
+      <h1 className="services__heading pageHeading fs-xl">
         আমাদের সেবাসমূহ
       </h1>
       <div className="services__serviceList">

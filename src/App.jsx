@@ -8,6 +8,7 @@ import Navbar from './components/navbar/navbar'
 import Landingpage from './components/page_landingpage/landingpage'
 import Services from './components/page_services/services'
 import ErrorElement from './components/macro/errorElement'
+import AboutUs from './components/page_aboutUs/aboutUs'
 
 const router = createBrowserRouter([
   {
@@ -32,7 +33,7 @@ const router = createBrowserRouter([
       },
       {
         path: 'about',
-        element: <>About Us</>
+        element: <AboutUs/>
       },
       {
         path: 'services',

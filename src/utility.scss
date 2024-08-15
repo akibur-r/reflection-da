@@ -10,7 +10,7 @@
   --clr-white: #ffffff;
   --clr-black: #000000;
   --clr-red: #e40613;
-  --clr-green: #25D366;
+  --clr-green: #25d366;
 
   --fw-200: 200;
   --fw-300: 300;
@@ -23,17 +23,17 @@
   --fs-xs: 0.75rem;
   --fs-s: 0.875rem;
   --fs-regular: 1rem;
-  --fs-l: 1.25rem;   
+  --fs-l: 1.25rem;
   --fs-xl: 2.5rem;
   --fs-xxl: 4rem;
 }
 
 * {
-    padding: 0;
-    margin: 0;
-    scroll-behavior: smooth;
-    line-height: 1;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  line-height: 1;
+  box-sizing: border-box;
 }
 
 body {
@@ -43,132 +43,136 @@ body {
 }
 
 a {
-    text-decoration: none;
-    color: inherit;
-    cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
 }
 
+.pageHeading {
+  display: flex;
+  justify-content: center;
+}
 
 .fs-regular {
-    font-size: var(--fs-regular);
+  font-size: var(--fs-regular);
 }
 
 .fs-l {
-    font-size: var(--fs-l);
+  font-size: var(--fs-l);
 }
 .fs-xl {
-    font-size: var(--fs-xl);
+  font-size: var(--fs-xl);
 }
 .fs-xxl {
-    font-size: var(--fs-xxl);
+  font-size: var(--fs-xxl);
 }
 .fs-s {
-    font-size: var(--fs-s);
+  font-size: var(--fs-s);
 }
 .fs-xs {
-    font-size: var(--fs-xs);
+  font-size: var(--fs-xs);
 }
 
 .fw-100 {
-    font-weight: 100;
+  font-weight: 100;
 }
 
 .fw-200 {
-    font-weight: 200;
+  font-weight: 200;
 }
 
 .fw-300 {
-    font-weight: 300;
+  font-weight: 300;
 }
 
 .fw-400 {
-    font-weight: 400;
+  font-weight: 400;
 }
 
 .fw-500 {
-    font-weight: 500;
+  font-weight: 500;
 }
 
 .fw-600 {
-    font-weight: 600;
+  font-weight: 600;
 }
 
 .fw-700 {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 .fw-800 {
-    font-weight: 800;
+  font-weight: 800;
 }
 
 .bg-primary {
-    background-color: var(--clr-primary);
+  background-color: var(--clr-primary);
 }
 
 .bg-secondary {
-    background-color: var(--clr-secondary);
+  background-color: var(--clr-secondary);
 }
 
 .bg-accent-white {
-    background-color: var(--clr-accent-white);
+  background-color: var(--clr-accent-white);
 }
 
 .bg-accent-black {
-    background-color: var(--clr-accent-black);
+  background-color: var(--clr-accent-black);
 }
 
 .bg-accent {
-    background-color: var(--clr-accent);
+  background-color: var(--clr-accent);
 }
 
 .bg-white {
-    background-color: var(--clr-white);
+  background-color: var(--clr-white);
 }
 
 .bg-black {
-    background-color: var(--clr-black);
+  background-color: var(--clr-black);
 }
 
 .bg-red {
-    background-color: var(--clr-red);
+  background-color: var(--clr-red);
 }
 
 .bg-green {
-    background-color: var(--clr-green);
+  background-color: var(--clr-green);
 }
 
 .txt-primary {
-   color: var(--clr-primary);
+  color: var(--clr-primary);
 }
 
 .txt-secondary {
-   color: var(--clr-secondary);
+  color: var(--clr-secondary);
 }
 
 .txt-accent-white {
-   color: var(--clr-accent-white);
+  color: var(--clr-accent-white);
 }
 
 .txt-accent-black {
-   color: var(--clr-accent-black);
+  color: var(--clr-accent-black);
 }
 
 .txt-accent {
-   color: var(--clr-accent);
+  color: var(--clr-accent);
 }
 
 .txt-white {
-    color: var(--clr-white);
+  color: var(--clr-white);
 }
 
 .txt-black {
-    color: var(--clr-black);
+  color: var(--clr-black);
 }
 
 .txt-red {
-    color: var(--clr-red);
+  color: var(--clr-red);
 }
 
 .txt-green {
-    color: var(--clr-green);
+  color: var(--clr-green);
 }

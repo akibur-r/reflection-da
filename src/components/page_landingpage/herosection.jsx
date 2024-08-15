@@ -27,8 +27,8 @@ function Herosection(){
                     amountInNumber={'২'}
                 />
 
-                <a href={'#projects'} className='herosection__highlights__link bg-accent'>
-                    আরও দেখুন
+                <a href={'#aboutUs'} className='herosection__highlights__link bg-accent'>
+                    বিস্তারিত দেখুন
                     <Icon icon={"line-md:chevron-small-down" } className='herosection__highlights__link__icon'/>
                 </a>
             </div>
