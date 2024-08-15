@@ -1,0 +1,30 @@
+.errorElement {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    height: 100vh;
+
+    .errorElement__heading {
+        .errorElement__heading__icon {
+            padding: 1rem;
+            box-sizing: content-box;
+            border-radius: 50%;
+        }
+    }
+
+    .errorElement__content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5rem;
+
+        .errorElement__content__link {
+            padding: 0.2rem 1rem;
+            border-radius: 0.2rem;
+            display: flex;
+            gap: 0.2rem;
+        }
+    }
+}

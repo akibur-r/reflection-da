@@ -1,0 +1,33 @@
+.aboutUs {
+    padding: 3rem 4rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    .aboutUs__content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 3rem;
+
+        .aboutUs__content__heading {
+            display: flex;
+            gap: 0.5rem;
+        }
+
+        .aboutUs__companyOverview {
+            text-align: center;
+            padding: 0 10%;
+            line-height: 2;
+        }
+
+        .aboutUs__teamMembers {
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            gap: 4rem;
+            flex-wrap: wrap;
+        }
+    }
+}

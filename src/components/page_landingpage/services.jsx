@@ -6,9 +6,9 @@ import '../page_services/services.scss'
 function Services(){
   return (
     <div className='services' id='services'>
-      <div className="services__heading fs-xl">
-        <h1 className='services__heading__title'>আমাদের সেবাসমূহ</h1>
-        <Link to={'services'} className='services__heading__link'>সবগুলো দেখুন</Link>
+      <div className="services__heading sectionHeading fs-l">
+        <h1 className='services__heading__title sectionHeading__title'>আমাদের সেবাসমূহ</h1>
+        <Link to={'services'} className='services__heading__link sectionHeading__link'>সবগুলো দেখুন</Link>
       </div>
       <div className="services__serviceList">
         <ServiceCard 

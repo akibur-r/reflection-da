@@ -1,0 +1,11 @@
+.landingpage {
+    .sectionHeading {
+        display: flex;
+        justify-content: space-between;
+
+        .sectionHeading__link {
+            font-size: 1.2rem;
+            text-decoration: underline;
+        }
+    }
+}

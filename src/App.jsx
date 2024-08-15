@@ -7,12 +7,13 @@ import { createBrowserRouter, Link, Navigate, Outlet, RouterProvider } from 'rea
 import Navbar from './components/navbar/navbar'
 import Landingpage from './components/page_landingpage/landingpage'
 import Services from './components/page_services/services'
+import ErrorElement from './components/macro/errorElement'
 
 const router = createBrowserRouter([
   {
     path: '/',
     element: <Navigate to={'/bn'} />,
-    errorElement: <>URL Not Found.<Link to={'/'}>Go Home</Link> </>
+    errorElement: <ErrorElement/>
   },
   {
     path: '/bn',

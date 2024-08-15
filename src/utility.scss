@@ -9,6 +9,7 @@
   --clr-accent-black: #050e18;
   --clr-white: #ffffff;
   --clr-black: #000000;
+  --clr-red: #e40613;
 
   --fw-200: 200;
   --fw-300: 300;
@@ -29,7 +30,6 @@
 * {
     padding: 0;
     margin: 0;
-    font-size: inherit;
     scroll-behavior: smooth;
     line-height: 1;
     box-sizing: border-box;
@@ -128,6 +128,10 @@ a {
     background-color: var(--clr-black);
 }
 
+.bg-red {
+    background-color: var(--clr-red);
+}
+
 .txt-primary {
    color: var(--clr-primary);
 }
@@ -154,4 +158,8 @@ a {
 
 .txt-black {
     color: var(--clr-black);
+}
+
+.txt-red {
+    color: var(--clr-red);
 }
