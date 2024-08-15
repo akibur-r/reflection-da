@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import LinkButton from '../macro/LinkButton'
+import LinkButton from '../macro/linkButton'
 import './footer.scss'
 
 function Footer(){

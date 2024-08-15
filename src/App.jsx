@@ -1,14 +1,13 @@
-import { useState } from 'react'
 import './App.css'
 import './utility.scss'
 
-import { createBrowserRouter, Link, Navigate, Outlet, RouterProvider } from 'react-router-dom'
+import { createBrowserRouter, Navigate, Outlet, RouterProvider } from 'react-router-dom'
 
+import ErrorElement from './components/macro/errorElement'
 import Navbar from './components/navbar/navbar'
+import AboutUs from './components/page_aboutUs/aboutUs'
 import Landingpage from './components/page_landingpage/landingpage'
 import Services from './components/page_services/services'
-import ErrorElement from './components/macro/errorElement'
-import AboutUs from './components/page_aboutUs/aboutUs'
 
 const router = createBrowserRouter([
   {
@@ -57,8 +56,6 @@ const router = createBrowserRouter([
 ]);
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     
       <RouterProvider router={router}/>
