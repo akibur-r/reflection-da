@@ -1,9 +1,12 @@
 import { Icon } from '@iconify/react/dist/iconify.js'
 import StyledText from '../macro/styledText'
 import TeamMemberCard from '../macro/teamMemberCard'
+import DocumentTitle from '../utility/documentTitle'
 import './aboutUs.scss'
 
 function AboutUs(){
+    DocumentTitle("About Us")
+
   return (
     <div className='aboutUs' id='aboutUs'>
         <div className="aboutUs__heading pageHeading">

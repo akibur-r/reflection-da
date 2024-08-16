@@ -1,7 +1,10 @@
 import ServiceCard from '../macro/serviceCard'
+import DocumentTitle from '../utility/documentTitle'
 import './services.scss'
 
 function Services(){
+  DocumentTitle('Services');
+  
   return (
     <div className='services' id='services'>
       <h1 className="services__heading pageHeading fs-xl">
