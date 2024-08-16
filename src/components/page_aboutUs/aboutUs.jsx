@@ -1,8 +1,7 @@
-import { Link } from 'react-router-dom'
-import './aboutUs.scss'
-import TeamMemberCard from '../macro/teamMemberCard'
 import { Icon } from '@iconify/react/dist/iconify.js'
 import StyledText from '../macro/styledText'
+import TeamMemberCard from '../macro/teamMemberCard'
+import './aboutUs.scss'
 
 function AboutUs(){
   return (

@@ -1,7 +1,7 @@
 import './App.css'
 import './utility.scss'
 
-import { createBrowserRouter, Navigate, Outlet, RouterProvider } from 'react-router-dom'
+import { createBrowserRouter, Outlet, RouterProvider } from 'react-router-dom'
 
 import ErrorElement from './components/macro/errorElement'
 import Navbar from './components/navbar/navbar'
@@ -12,11 +12,6 @@ import Services from './components/page_services/services'
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <Navigate to={'/bn'} />,
-    errorElement: <ErrorElement/>
-  },
-  {
-    path: '/bn',
     element: 
     <>
       <Navbar/>
@@ -24,10 +19,11 @@ const router = createBrowserRouter([
         <Outlet />
       </div>
     </>,
+    errorElement: <ErrorElement/>,
 
     children: [
       {
-        path: '/bn',
+        path: '/',
         element: <Landingpage/>
       },
       {
@@ -37,19 +33,11 @@ const router = createBrowserRouter([
       {
         path: 'services',
         element: <Services/>
+      },
+      {
+        path: 'projects',
+        element: <>Projects Page</>
       }
-    ]
-  },
-  {
-    path: '/en',
-    element: 
-    <>
-      <Navbar/>
-      <Outlet />
-    </>,
-
-    children: [
-
     ]
   }
   

@@ -3,7 +3,6 @@ import AboutUs from './aboutUs'
 import Footer from './footer'
 import Herosection from './herosection'
 import './landingpage.scss'
-import Projects from './projects'
 
 function Landingpage(){
   return (

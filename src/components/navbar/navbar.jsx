@@ -4,7 +4,7 @@ import './navbar.scss'
 function Navbar(){
   return (
     <div className='navbar  txt-black fs-regular'>
-        <Link to={'/bn'} className="navbar__logoContainer txt-white">
+        <Link to={'/'} className="navbar__logoContainer txt-white">
             <img src="./logo.png" alt="#" className='navbar__logo'/>
         </Link>
 
